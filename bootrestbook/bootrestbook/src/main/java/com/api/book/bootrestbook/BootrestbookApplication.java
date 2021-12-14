@@ -13,6 +13,7 @@ public class BootrestbookApplication {
 		int b=30;
 		int c=a+b;
 		String name="kjjkj";
+		int d=100;
 		System.out.println(c); 
 				
 			
