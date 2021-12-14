@@ -19,6 +19,8 @@ public class Author {
 	private String lastname;
 	private String language;
 	
+	int number=20;
+	
 	@OneToOne(mappedBy="author")
 	@JsonBackReference 
 	private Book book;
